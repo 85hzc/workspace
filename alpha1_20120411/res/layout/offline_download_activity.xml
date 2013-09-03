@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#e8ebef"
+    android:orientation="vertical"
+  >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/title_image"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/title_bar_bg" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/title_image"
+            android:paddingBottom="6dp"
+            android:paddingLeft="7dp"
+            android:paddingTop="5dp"
+            android:text="@string/offline_down_title"
+            android:textColor="#01020e"
+            android:textSize="20sp" />
+  
+       <ImageButton
+        android:id="@+id/home_icon_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/title_image"
+            android:background="#00000000" 
+            android:src="@drawable/title_home_bg"
+           android:layout_alignParentRight="true"
+            android:paddingBottom="5dp"
+            ></ImageButton>  
+
+      
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="24dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/download_title"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="4"
+            android:gravity="center|left"
+            android:paddingLeft="7dp"
+            android:text="@string/offline_down_title_tip"
+            android:textColor="#01020e"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/download_no"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center|right"
+            android:paddingRight="10dp"
+            android:text="1/3"
+            android:textColor="#01020e"
+            android:textSize="16dip" />
+    </LinearLayout>
+
+    <su.rss.activity.MyProgress
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="21dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_marginTop="8dp"
+        android:max="100"
+        android:visibility="visible" >
+    </su.rss.activity.MyProgress>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="24dp"
+        android:layout_marginTop="40dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/current_network"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:gravity="center|left"
+            android:paddingLeft="7dp"
+        
+            android:textColor="#01020e"
+            android:textSize="16dip" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/note"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="7dp"
+        android:paddingRight="7dp"
+        android:text="@string/offline_down_stats_tip"
+        android:textColor="#6b6b6b"
+        android:textSize="14sp" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <Button
+            android:id="@+id/OfflineDownloadCancel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/download_button_cancel"
+            android:gravity="center"
+            android:text="@string/offline_down_cancel"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+</LinearLayout>

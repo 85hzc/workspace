@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory
+        android:layout="@layout/custom_category"
+        android:title="@string/title_catigory_first" >
+        <CheckBoxPreference
+            android:id="@+id/is_pic_allow"
+            android:key="is_pic_allow"
+            android:defaultValue="true"
+            android:layout="@layout/custom_preference"
+            android:persistent="true"
+            android:summary="@string/load_pic_checkbox_summary"
+            android:title="@string/load_pic_checkbox_title" />
+
+        <ListPreference
+            android:id="@+id/font_size_listpreference_id"
+            android:defaultValue="2"
+            android:entries="@array/font_size_show"
+            android:entryValues="@array/font_size"
+            android:key="fontkey"
+            android:layout="@layout/custom_preference"
+            android:summary="@string/font_size_summary"
+            android:title="@string/font_size_title"
+            android:widgetLayout="@layout/custom_list_preference" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:layout="@layout/custom_category"
+        android:title="@string/title_catigory_second" >
+        <ListPreference
+            android:defaultValue="WIFI"
+            android:entries="@array/network_arrays_show"
+            android:entryValues="@array/network_arrays"
+            android:key="network"
+            android:layout="@layout/custom_preference"
+            android:summary="@string/network_summary"
+            android:title="@string/network_title"
+            android:widgetLayout="@layout/custom_list_preference" />
+        <ListPreference
+            android:defaultValue="30"
+            android:entries="@array/offline_download_no"
+            android:entryValues="@array/offline_download_no"
+            android:key="offline_no"
+            android:layout="@layout/custom_preference"
+            android:summary="@string/offline_down_no_title"
+            android:title="@string/offline_down_no_title"
+            android:widgetLayout="@layout/custom_list_preference" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:layout="@layout/custom_category"
+        android:title="@string/other_catigory" >
+        <CheckBoxPreference
+            android:key="is_auto_update"
+            android:defaultValue="true"
+            android:layout="@layout/custom_preference"
+            android:summary="@string/auto_update_summary"
+            android:title="@string/auto_update_title" />
+
+        <Preference
+            android:key="cleanhistory"
+            android:layout="@layout/custom_preference"
+            android:summary="@string/clean_cache_summary"
+            android:title="@string/clean_cache_title" />
+        <Preference
+            android:key="login"
+            android:layout="@layout/custom_login_preference"
+            android:title="@string/login_title" >
+        </Preference>
+    </PreferenceCategory>
+
+</PreferenceScreen>

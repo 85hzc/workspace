@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="network_arrays_show">
+        <item>@string/net_work_not_limit</item>
+        <item>WIFI</item>
+        <item>3G/2G</item>
+    </string-array>
+    <string-array name="network_arrays">
+        <item>not_limit</item>
+        <item>WIFI</item>
+        <item>3G/2G</item>
+    </string-array>
+    <string-array name="offline_download_no">
+        <item>20</item>
+        <item>30</item>
+        <item>40</item>
+    </string-array>
+    <string-array name="font_size">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="font_size_show">
+        <item>@string/font_size_largest</item>
+        <item>@string/font_size_large</item>
+        <item>@string/font_size_normal</item>
+        <item>@string/font_size_small</item>
+    </string-array>
+
+</resources>

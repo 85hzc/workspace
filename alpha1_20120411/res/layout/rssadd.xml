@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<include android:id="@+id/title_bar" layout="@layout/title_bar"/>
+	<include android:id="@+id/tab_bar" layout="@layout/tab_bar"/>"
+	<su.rss.view.ScrollLayout android:id="@+id/scroll_layout"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:fadingEdge="none"
+		android:background="@color/activity_bg_color">
+		<include android:id="@+id/customer_layout" layout="@layout/rssadd_custom"/>
+		<include android:id="@+id/push_layout" layout="@layout/rssadd_list"/>
+		<include android:id="@+id/category_layout" layout="@layout/rssadd_list"/>"
+	</su.rss.view.ScrollLayout>
+</LinearLayout>

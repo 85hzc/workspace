@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="150dp"
+	android:layout_height="130dp"
+	android:gravity="center"
+	android:background="#19000000">
+	<ImageView android:id="@+id/cell_add_btn"
+		android:layout_width="70dp"
+		android:layout_height="32dp"
+		android:background="@drawable/cell_add_icon"/>
+</LinearLayout>

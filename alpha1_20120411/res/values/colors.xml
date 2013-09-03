@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="title_text_color">#ff01020e</color>
+    <color name="night_title_text_color">#ff404772</color>
+    <color name="white">#ffffffff</color>
+    <color name="night_white">#ff7383ba</color>
+    <color name="activity_bg_color">#ffe8ebef</color>
+    <color name="night_activity_bg_color">#ff041a32</color>
+    <color name="date_color">#ff9a9a9a</color>
+    <color name="night_date_color">#ff404772</color>
+    <color name="content_color">#ff6b6b6b</color>
+    <color name="night_content_color">#ff404772</color>
+    <color name="list_item_select_color">#ffffcb66</color>
+    <color name="night_list_item_select_color">#ff020316</color>
+    <color name="list_item_title_color">#ff01020e</color>
+    <color name="night_list_item_title_color">#ff7383ba</color>
+    <color name="list_divider_color">#ffd3d3d3</color>
+    <color name="night_list_divider_color">#3a4b76</color>
+    <color name="tab_img_color">#fffcb50b</color>
+    <color name="night_tab_img_color">#ff0d649b</color>
+    <color name="rssadd_item_text_color">#ff01020e</color>
+    <color name="night_rssadd_item_text_color">#ff7383ba</color>
+    <color name="tab_text_color">#ff01020e</color>
+    <color name="night_tab_text_color">#ff7383ba</color>
+ 	<color name="night_bg">#ff041a32</color>
+ 	<color name="night_catigory_color">#ff404772</color>
+ 	<color name="download_text">#01020e</color>
+ 	<color name="night_download_text">#7383ba</color>
+ 	<color name="note_color">#6b6b6b</color>
+ 	<color name="night_note_color">#404772</color>
+ 	<color name="divider_color">#3a4b76</color>
+ 	<color name="background">#ff0000</color>
+ 	<color name="title_font">#01020e</color>
+ 	<color name="night_title_font">#7383ba</color>
+ 	<color name="summary_font_night">#404772</color>
+ 	<color name="catigory_bg_color">#e0e0e0</color>
+ 	<color name="night_catigory_bg_color">#03041e</color>
+ 	<color name="divider_color_">#d3d3d3</color>
+ 	<color name="night_divider_color">#3a4b76</color>
+ 	<color name="item_readed_color">#ffa2a2a2</color>
+ 	<color name="night_item_readed_color">#ff404772</color>
+ 	
+    
+</resources>

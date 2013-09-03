@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="hello">Hello World!</string>
+    <string name="app_name">RSSReader</string>
+    <string name="offline_down_title_tip">正在下载：</string>
+    <string name="offline_down_title">离线下载：</string>
+    <string name="offline_down_cancel">取消下载</string>
+    <string name="offline_down_failed_title_tip">离线下载失败</string>
+    <string name="offline_down_success_title_tip">离线下载完成</string>
+    <string name="offline_down_success_button">马上阅读</string>
+    <string name="offline_down_failed_button">我知道了</string>
+    <string name="offline_down_failed_net">由于网络断开，无法完成离线下载。</string>
+    <string name="offline_down_failed_sd">由于无法找到存储卡，无法完成离线下载。</string>
+    <string name="offline_down_stats_tip">本次共下载<xliff:g id="count">%d</xliff:g>篇文章，共消耗流量<xliff:g id="string">%s</xliff:g>。</string>
+    <string name="offline_down_finish_tip">现在您可以在离线的情况下阅读这些文章了。</string>
+    <string name="offline_down_failed">下载失败</string>
+    <string name="fav_title_name">我的收藏</string>
+    <string name="rssadd_title_name">添加阅读</string>
+    <string name="tab_custom_title">自定义添加</string>
+    <string name="tab_push_title">推荐阅读</string>
+    <string name="tab_category_title">分类阅读</string>
+    <string name="custom_edit_hint">请输入RSS地址</string>
+    <string name="rssadd_subscribe">订阅</string>
+    <string name="rssadd_cancel">取消</string>
+    <string name="feed_add_title">源分类</string>
+    <string name="menu_offline_download">离线下载</string>
+    <string name="menu_theme_night">夜间模式</string>
+    <string name="menu_theme_light">日间模式</string>
+    <string name="menu_setting">设置</string>
+    <string name="menu_about">关于</string>
+    <string name="menu_help">使用指引</string>
+    <string name="menu_exit">退出</string>
+    <string name="download_failed">加载失败！</string>
+    <string name="menu_fav_name">收藏</string>
+    <string name="menu_share_name">分享</string>
+    <string name="menu_show_all">查看原文</string>
+    <string name="menu_refresh_name">刷新</string>
+    <string name="menu_remove_name">移除</string>
+    <string name="custom_add_ok">订阅成功！</string>
+    <string name="net_tip">您现在处于GPRS网络下，离线下载可能会耗费较多的流量，确定下载吗？（建议在WIFI网络下下载）</string>
+    <string name="net_dlg_title">温馨提示</string>
+    <string name="download">下载</string>
+    <string name="cancel">取消</string>
+    <string name="net_unuseful">当前无网络连接</string>
+
+    <!-- 设置界面 -->
+    <string name="title_name">设置</string>
+    <string name="title_catigory_first">阅读设置</string>
+    <string name="load_pic_checkbox_title">载入图片</string>
+    <string name="load_pic_checkbox_summary">阅读时是否加载图片</string>
+    <string name="font_size_title">字体大小</string>
+    <string name="font_size_summary">当前字体大小：</string>
+    <string name="title_catigory_second">离线下载设置</string>
+    <string name="network_title">离线下载网络</string>
+    <string name="network_summary">限定离线下载网络：</string>
+    <string name="offline_down_no_title">离线下载条数</string>
+    <string name="offline_down_no_summary">当前允许离线下载文章数:</string>
+    <string name="other_catigory">其他设置</string>
+    <string name="auto_update_title">自动更新内容</string>
+    <string name="auto_update_summary">启动后是否自动更新</string>
+    <string name="clean_cache_summary">清理离线下载的内容</string>
+    <string name="clean_cache_title">清理缓存</string>
+    <string name="login_title"> 注册/登陆</string>
+    <string name="login">登陆</string>
+    <string name="logout">退出</string>
+    <string name="clean_history"> 清除历史记录？</string>
+    <string name="is_clean_history">是否真的要清除历史记录？</string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+    <string name="clean_ok">清除成功</string>
+    <string name="net_work_not_limit">不限</string>
+    <string name="font_size_largest">超大</string>
+    <string name="font_size_large">大</string>
+    <string name="font_size_normal">普通</string>
+    <string name="font_size_small">小</string>
+
+    <!-- 离线下载 -->
+    <string name="offline_download_note">系统将为你逐一下载选中的文章和图片，为避免流量损失建议使用wifi网络。</string>
+    <string name="offline_download_toast_all">系统将为你逐一下载每个栏目下的前<xliff:g id="count">%d</xliff:g>篇文章和图片。</string>
+    <string name="offline_download_toast_item">系统将为你下载该栏目下的前<xliff:g id="count">%d</xliff:g>篇文章和图片。</string>
+
+</resources>

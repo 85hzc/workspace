@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/off_linearlayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/activity_bg_color"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/title_bar"
+        layout="@layout/title_bar" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="24dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/download_title"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="4"
+            android:gravity="center|left"
+            android:paddingLeft="7dp"
+            android:text="@string/offline_down_title_tip"
+            android:textColor="@color/tab_text_color"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/download_no"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center|right"
+            android:paddingRight="10dp"
+            android:textColor="@color/tab_text_color"
+            android:textSize="16dip" />
+    </LinearLayout>
+
+    <su.rss.activity.MyProgress
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="21dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_marginTop="8dp"
+        android:max="100"
+        android:visibility="visible" >
+    </su.rss.activity.MyProgress>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="24dp"
+        android:layout_marginTop="40dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/current_network"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center|left"
+            android:paddingLeft="7dp"
+            android:textColor="@color/tab_text_color"
+            android:textSize="16dip" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/note"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="7dp"
+        android:paddingRight="7dp"
+        android:text="@string/offline_down_stats_tip"
+        android:textColor="@color/content_color"
+        android:textSize="14sp" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <Button
+            android:id="@+id/OfflineDownloadCancel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/download_button_cancel"
+            android:gravity="center"
+            android:text="@string/offline_down_cancel"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+</LinearLayout>
